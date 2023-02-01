@@ -1,0 +1,73 @@
+//#include<iostream>
+//using namespace std;
+//int main() {
+//
+//	int sk1, sk2;
+//	cin >> sk1 >> sk2;
+//	if (sk1 > sk2)
+//		cout << "sk1 max, sk2 min" << endl;
+//	else
+//		cout << "sk2 max, sk1 min" << endl;
+//	if (sk1 > 0)
+//		cout << "sk1 pozitivs" << endl;
+//	else
+//		cout << "sk1 negativs" << endl;
+//	if (sk2 > 0)
+//		cout << "sk2 pozitivs" << endl;
+//	else
+//		cout << "sk2 negativs" << endl;
+//	if (sk1 % 2)
+//	cout << "sk1 para" << endl;
+//	else
+//		cout << " sk1 nepara" << endl;
+//	if (sk2 % 2)
+//		cout << " sk2 nepara" << endl;
+//	else
+//		cout << " sk2 para" << endl;
+//}
+
+
+
+
+
+
+
+//#include<iostream>
+//using namespace std;
+//int main() {
+//
+//	int a1;
+//	cin >> a1
+//		if (a1 >= 90 % a1 <= 100)cout << "";
+//	cout << "Pirmais skaitlis ir maksimalais" << endl;
+//  }
+//cout << "Otrais skaitlis ir minimalais" << endl;
+//  else 
+//  
+//  if (a1 < 0 % a1 <= 100)cout << "";
+//  {
+//	  cout << "Skaitlis ir negativi" << endl;
+// 
+//  
+//  }
+//  else cout << "Otra skaitlis ir pozitivi" << endl;
+//
+//  if (a1 % 2 == 0)
+//
+//  {
+//
+//	  cout << "Pirmais skaitlis ir para" << endl;
+//
+//
+//
+//
+//  else cout << "Nav para skaitlis";
+//
+//
+//  if (a2 % 2 == 0)
+//
+//	  cout << "Otrais skaitlis ir para";
+//  }
+//  else cout << "Nav para"
+//  return 0;
+//  {
