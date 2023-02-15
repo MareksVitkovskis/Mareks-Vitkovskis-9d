@@ -1,0 +1,57 @@
+//#include<iostream>
+//#include<cmath>
+//using namespace std;
+//int main()
+//{
+//	int sk = 0;
+//		do {
+//			sk++	;
+//			cout << sk << " ";
+//			cout << sk * sk * sk << endl;
+//		} while (sk < 125);
+//
+//}
+
+
+//{
+//	int skait = 21;
+//	do {
+//		skait--;
+//		cout << skait << " ";
+//		cout << skait * skait * skait << endl;
+//	} while (skait > 1);
+//}
+
+//{
+//	cout << "      *     "<< endl;
+//	cout << "     ***    "<< endl;
+//	cout << "    *****   "<< endl;
+//	cout << "   *******  " << endl;
+//	cout << "     ***    "<< endl;
+//	cout << "    *****   "<< endl;
+//	cout << "   *******  "<< endl;
+//	cout << "  ********* "<< endl;
+//	cout << " *********** "<< endl;
+//	cout << "     ***     "<< endl;
+//	cout << "     ***    " << endl;
+//}
+
+//{
+//	string s = "";
+//	do {
+//		cin >> s;
+//		cout << s << endl;
+//	} while (s != "stop");
+//}
+
+
+//{
+//string pass;
+//int tries = 0;
+//do {
+//	tries++;
+//	cout << "enter password for code" << endl;
+//	cin >> pass;
+//} while (pass != "8888" && tries != 3);
+//return 0;
+//}
