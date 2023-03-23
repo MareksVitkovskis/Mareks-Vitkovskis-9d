@@ -1,0 +1,40 @@
+CREATE TABLE EMPLOYEE2 (
+Id INTEGER not null,
+first_name TEXT NOT NULL,
+last_name TEXT NOT NULL,
+customer_id INTEGER NOT NULL,
+customer_name TEXT NOT NULL,
+city TEXT NOT NULL
+);
+
+
+INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',1,'Jewelry Store','London');
+INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',2,'Bakery','London');
+INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',3,'Cafe','London');
+INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',4,'Restaurant','London');
+INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',1,'Jewelry Store','Cardiff');
+INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',2,'Bakery','Cardiff');
+INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',3,'Cafe','Cardiff');
+INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',4,'Restaurant','Cardiff');
+
+
+SELECT * FROM EMPLOYEE2;
+SELECT * FROM EMPLOYEE2 where customer_name='Bakery';
+SELECT * FROM EMPLOYEE2 where customer_id=4 and last_name='Anderson';
+
+
+SELECT AVG(customer_id)
+FROM EMPLOYEE2;
+
+SELECT MIN(customer_id)
+FROM EMPLOYEE2;
+
+SELECT MAX(customer_id)
+FROM EMPLOYEE2;
+
+SELECT * FROM EMPLOYEE2;
+SELECT * FROM EMPLOYEE2 where city='London';
+SELECT * FROM EMPLOYEE2 where first_name='Agent';
+
+
+
